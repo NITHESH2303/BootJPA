@@ -9,4 +9,8 @@ public class AlienController {
     public String home(){
         return "home.jsp";
     }
+    @RequestMapping(/"addAlien")
+    public String addAlien(Alien alien){
+        return "home.jsp";
+    }
 }
