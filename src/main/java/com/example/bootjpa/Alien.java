@@ -34,5 +34,8 @@ public class Alien {
         this.aname = aname;
     }
 
+    public String toString(){
+        return "Alien{" + "id=" + aid + ",aname=" + aname + "\"" + "}";
+    }
 
 }
