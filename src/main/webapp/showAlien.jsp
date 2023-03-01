@@ -7,6 +7,6 @@
     <title>Insert title here</title>
 </head>
 <body>
-    ${alien.aid}
+    ${alien.aid} ${alien.aname} ${alien.tech}
 </body>
 </html>
